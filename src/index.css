@@ -58,10 +58,10 @@
   }
 
   .trending {
-    @apply mt-20;
+    @apply mt-10;
 
     & ul {
-      @apply flex flex-row overflow-y-auto gap-5 -mt-10 w-full hide-scrollbar;
+      @apply flex flex-row overflow-y-auto gap-5 -mt-5 w-full hide-scrollbar;
     }
 
     & ul li {
@@ -69,16 +69,16 @@
     }
 
     & ul li p {
-      @apply fancy-text mt-[22px] text-nowrap;
+      @apply fancy-text mt-[22px] text-nowrap text-gray-900;
     }
 
     & ul li img {
-      @apply w-[127px] h-[163px] rounded-lg object-cover -ml-3.5;
+      @apply w-[130px] h-[167px] rounded-lg object-cover -ml-3.5;
     }
   }
 
   .search {
-    @apply w-full bg-light-100/5 px-4 py-3 rounded-lg mt-10 max-w-3xl mx-auto;
+    @apply w-full bg-light-100/5 px-4 py-3 rounded-lg mt-5 max-w-3xl mx-auto;
 
     & div {
       @apply relative flex items-center;
@@ -94,7 +94,7 @@
   }
 
   .all-movies {
-    @apply space-y-9;
+    @apply space-y-7;
 
     & ul {
       @apply grid grid-cols-1 gap-5 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4;
@@ -147,7 +147,7 @@
 }
 
 @utility fancy-text {
-  -webkit-text-stroke: 5px rgba(206, 206, 251, 0.5);
+  -webkit-text-stroke: 2px rgba(206, 206, 251, 0.5);
   font-size: 190px;
   font-family: "Bebas Neue", sans-serif;
 }
